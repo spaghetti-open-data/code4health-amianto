@@ -1,0 +1,310 @@
+  1. ID_Unit�
+	<class 'int'>
+	Nulls: True
+	Min: 2
+	Max: 1973
+	Sum: 80813
+	Mean: 208.28092783505156
+	Median: 204.5
+	Standard Deviation: 146.87274787802605
+	Unique values: 388
+  2. Provincia
+	<class 'str'>
+	Nulls: True
+  3. Comune
+	<class 'str'>
+	Nulls: True
+	Unique values: 131
+	5 most frequent values:
+		Caserta:	27
+		Napoli:	24
+		Mignano Montelungo:	22
+		Mondragone:	20
+		Sessa Aurunca:	18
+	Max length: 25
+  4. Categoria
+	<class 'str'>
+	Nulls: True
+	Values: 1.�?��?��?��?��?� impianti industriali attivi o dismessi;, 2.edifici pubblici e privati;
+  5. Tipologia
+	<class 'str'>
+	Nulls: True
+	Unique values: 11
+	5 most frequent values:
+		Edifici residenziali:	238
+		Edifici artigianali e di servizio:	88
+		Uffici Pubblica Amministrazione:	28
+		Scuole di ogni ordine e grado:	9
+		Edifici Industriali e loro pertinenze:	7
+	Max length: 37
+  6. Descrizion
+	<class 'str'>
+	Nulls: True
+	Unique values: 35
+	5 most frequent values:
+		Civile abitazione:	236
+		Ufficio aperto al pubblico:	84
+		Attivit�?� scolastica:	7
+	Max length: 50
+  7. Descrizi_1
+	<class 'str'>
+	Nulls: True
+	Unique values: 118
+	5 most frequent values:
+		Pannelli interni in cemento-amianto:	58
+		Pluviali:	39
+		Canne fumarie:	24
+		Lastre ondulate:	23
+		Canne fumarie (espressi in mlineari):	18
+	Max length: 50
+  8. A - Friabi
+	<class 'int'>
+	Nulls: True
+	Values: 1, 2
+  9. B - Uso pu
+	<class 'int'>
+	Nulls: True
+	Values: 2500000000000000, 1000000000000000
+ 10. C - Access
+	<class 'int'>
+	Nulls: True
+	Values: 2500000000000000, 1000000000000000
+ 11. D - Presen
+	<class 'int'>
+	Nulls: True
+	Values: 2500000000000000, 1000000000000000
+ 12. I1 - Quant
+	<class 'int'>
+	Nulls: True
+	Values: 10, 5, 15
+ 13. Peso stima
+	<class 'int'>
+	Nulls: True
+	Min: 1
+	Max: 90863
+	Sum: 181726
+	Mean: 10095.888888888889
+	Median: 50.0
+	Standard Deviation: 23139.801110469787
+	Unique values: 13
+	5 most frequent values:
+		50:	3
+		15:	2
+ 14. Peso sti_1
+	<class 'int'>
+	Nulls: True
+	Min: 3
+	Max: 144555
+	Sum: 1446787
+	Mean: 3899.6954177897574
+	Median: 144
+	Standard Deviation: 12635.638213330307
+	Unique values: 171
+	5 most frequent values:
+		5100:	22
+		7650:	13
+		10200:	10
+ 15. I2 -Prese
+	<class 'int'>
+	Nulls: True
+	Values: 1, 10
+ 16. I3 - Attiv
+	<class 'int'>
+	Nulls: True
+	Values: 1, 3
+ 17. I4 - Pres
+	<class 'int'>
+	Nulls: True
+	Values: 1, 5
+ 18. I5 - Conce
+	<class 'int'>
+	Nulls: True
+	Values: 2, 5
+ 19. I6 - Area
+	<class 'int'>
+	Nulls: True
+	Values: 30000, 9, 3, 5
+ 20. ? Effettiv
+	<class 'int'>
+	Nulls: True
+	Min: 2
+	Max: 178862
+	Sum: 689842
+	Mean: 5474.936507936508
+	Median: 200.0
+	Standard Deviation: 19798.551733046726
+	Unique values: 53
+	5 most frequent values:
+		112:	23
+		170:	16
+		200:	15
+		400:	6
+ 21. I7 - Supe
+	<class 'int'>
+	Nulls: True
+	Values: 8, 10, 60000, 5
+ 22. Effettiva
+	<class 'int'>
+	Nulls: True
+	Min: 3
+	Max: 12000
+	Sum: 13193
+	Mean: 1649.125
+	Median: 200.0
+	Standard Deviation: 3914.67116874138
+	Unique values: 7
+	5 most frequent values:
+		300:	2
+ 23. Effettiv_1
+	<class 'int'>
+	Nulls: True
+	Min: 2
+	Max: 48000
+	Sum: 94502
+	Mean: 2197.720930232558
+	Median: 325
+	Standard Deviation: 7394.947867877887
+	Unique values: 33
+	5 most frequent values:
+		4:	4
+		1000:	3
+ 24. I8 - Coinv
+	<class 'int'>
+	Nulls: True
+	Values: 1, 3
+ 25. I9 - Stat
+	<class 'int'>
+	Nulls: True
+	Values: 5, 30
+ 26. I10 - Tem
+	<class 'int'>
+	Nulls: True
+	Values: 1, 3, 7
+ 27. Data dismi
+	<class 'int'>
+	Nulls: True
+	Min: 1958
+	Max: 2002
+	Sum: 13915
+	Mean: 1987.857142857143
+	Median: 1993
+	Standard Deviation: 14.247090644645127
+	Unique values: 6
+	5 most frequent values:
+		1998:	2
+ 28. I11 - Tip
+	<class 'int'>
+	Nulls: True
+	Values: 1, 3
+ 29. I12 - Dat
+	<class 'int'>
+	Nulls: True
+	Values: 1
+ 30. I13 - Fre
+	<class 'int'>
+	Nulls: True
+	Values: 10, 20, 5
+ 31. I14 - Dis
+	<class 'int'>
+	Nulls: True
+	Values: 1, 3, 5
+ 32. Distanza d
+	<class 'float'>
+	Nulls: True
+	Min: 0.0
+	Max: 1e+16
+	Sum: 2.3127e+17
+	Mean: 596056701030927.9
+	Median: 275000000000000.0
+	Standard Deviation: 900075693770779.5
+	Unique values: 18
+	5 most frequent values:
+		0.0:	175
+		1000000000000000.0:	166
+		50000000000000.0:	8
+ 33. I15 - Den
+	<class 'int'>
+	Nulls: True
+	Values: 2, 4
+ 34. I16 - Et�
+	<class 'int'>
+	Nulls: True
+	Values: 2, 10
+ 35. Stato dell
+	<class 'str'>
+	Nulls: True
+	Values: C, A
+ 36. Tipo di in
+	<class 'str'>
+	Nulls: True
+	Values: C, A, C, A, B, B
+ 37. Costi Tota
+	<class 'NoneType'>
+	Nulls: True
+	Values: 
+ 38. Fondi loca
+	<class 'NoneType'>
+	Nulls: True
+	Values: 
+ 39. Stima dei
+	<class 'NoneType'>
+	Nulls: True
+	Values: 
+ 40. Classe di
+	<class 'int'>
+	Nulls: True
+	Values: 1, 2, 3, 4, 5
+ 41. Coefficien
+	<class 'float'>
+	Nulls: True
+	Values: 400000000000000.0, 800000000000000.0, 300000000000000.0, 1200000000000000.0, 700000000000000.0
+ 42. Punteggio
+	<class 'int'>
+	Nulls: True
+	Min: 56700000000000000
+	Max: 1632599999999990000
+	Sum: 259539299999999912800
+	Mean: 6.706441860465114e+17
+	Median: 680399999999999000
+	Standard Deviation: 2.1206415174626355e+17
+	Unique values: 88
+	5 most frequent values:
+		819000000000000000:	132
+		623000000000000000:	84
+		620399999999999000:	31
+		680399999999999000:	10
+		710500000000000000:	9
+ 43. Coordinate
+	<class 'int'>
+	Nulls: True
+	Min: 905367
+	Max: 1049727
+	Sum: 365477920
+	Mean: 944387.3901808786
+	Median: 941901
+	Standard Deviation: 29406.731310398485
+	Unique values: 253
+	5 most frequent values:
+		947955:	23
+		937804:	15
+		913408:	11
+		949698:	10
+		924710:	7
+ 44. Coordina_1
+	<class 'int'>
+	Nulls: True
+	Min: 4476604
+	Max: 4600152
+	Sum: 1765649908
+	Mean: 4562402.8630490955
+	Median: 4561821
+	Standard Deviation: 21862.53878211156
+	Unique values: 247
+	5 most frequent values:
+		4560502:	23
+		4563652:	15
+		4576960:	11
+		4591581:	7
+		4563055:	6
+
+Row count: 389

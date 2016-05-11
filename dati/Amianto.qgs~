@@ -3,37 +3,40 @@
     <title></title>
     <layer-tree-group expanded="1" checked="Qt::Checked" name="">
         <customproperties/>
-        <layer-tree-group expanded="0" checked="Qt::Checked" name="Regione Lombardia">
+        <layer-tree-group expanded="0" checked="Qt::Checked" name="Dati Regioni">
             <customproperties/>
-            <layer-tree-layer expanded="1" checked="Qt::Checked" id="Mappatura_CA_2007_agg201220160507111555268" name="Siti (aree)">
+            <layer-tree-group expanded="0" checked="Qt::Checked" name="Regione Lombardia">
                 <customproperties/>
-            </layer-tree-layer>
-        </layer-tree-group>
-        <layer-tree-group expanded="0" checked="Qt::Checked" name="Regione Piemonte">
-            <customproperties/>
-            <layer-tree-layer expanded="1" checked="Qt::Checked" id="PotpresenzaCMA20160507110211508" name="Siti (punti)">
+                <layer-tree-layer expanded="1" checked="Qt::Checked" id="Mappatura_CA_2007_agg201220160507111555268" name="Siti (aree)">
+                    <customproperties/>
+                </layer-tree-layer>
+            </layer-tree-group>
+            <layer-tree-group expanded="0" checked="Qt::Checked" name="Regione Piemonte">
                 <customproperties/>
-            </layer-tree-layer>
-        </layer-tree-group>
-        <layer-tree-group expanded="0" checked="Qt::Checked" name="RegioneLiguria">
-            <customproperties/>
-            <layer-tree-layer expanded="1" checked="Qt::Checked" id="Siti_da_Bonificare20160507120739693" name="Siti (punti)">
+                <layer-tree-layer expanded="1" checked="Qt::Checked" id="PotpresenzaCMA20160507110211508" name="Siti (punti)">
+                    <customproperties/>
+                </layer-tree-layer>
+            </layer-tree-group>
+            <layer-tree-group expanded="0" checked="Qt::Checked" name="RegioneLiguria">
                 <customproperties/>
-            </layer-tree-layer>
-        </layer-tree-group>
-        <layer-tree-group expanded="0" checked="Qt::Checked" name="Regione Sardegna">
-            <customproperties/>
-            <layer-tree-layer expanded="1" checked="Qt::Checked" id="sitiInquinati20160507164310689" name="sitiInquinati">
+                <layer-tree-layer expanded="1" checked="Qt::Checked" id="Siti_da_Bonificare20160507120739693" name="Siti (punti)">
+                    <customproperties/>
+                </layer-tree-layer>
+            </layer-tree-group>
+            <layer-tree-group expanded="0" checked="Qt::Checked" name="Regione Sardegna">
                 <customproperties/>
-            </layer-tree-layer>
+                <layer-tree-layer expanded="1" checked="Qt::Checked" id="sitiInquinati20160507164310689" name="sitiInquinati">
+                    <customproperties/>
+                </layer-tree-layer>
+            </layer-tree-group>
         </layer-tree-group>
-        <layer-tree-group expanded="1" checked="Qt::Checked" name="INAIL-Wired">
+        <layer-tree-group expanded="0" checked="Qt::Checked" name="INAIL-Wired">
             <customproperties/>
             <layer-tree-layer expanded="1" checked="Qt::Checked" id="INAIL_WGS_8420160507150947744" name="INAIL WGS 84">
                 <customproperties/>
             </layer-tree-layer>
         </layer-tree-group>
-        <layer-tree-group expanded="1" checked="Qt::Checked" name="Ministero Ambiente">
+        <layer-tree-group expanded="0" checked="Qt::Checked" name="Ministero Ambiente">
             <customproperties/>
             <layer-tree-group expanded="0" checked="Qt::Checked" name="Provincia Autonoma Bolzano">
                 <customproperties/>
@@ -92,10 +95,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>1360465.18122289516031742</xmin>
-            <ymin>5693294.74863459728658199</ymin>
-            <xmax>1589480.01639487780630589</xmax>
-            <ymax>5859324.71508385054767132</ymax>
+            <xmin>370074.43296144949272275</xmin>
+            <ymin>4656591.59690055623650551</ymin>
+            <xmax>2202193.11433731019496918</xmax>
+            <ymax>5984831.32849458232522011</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -160,42 +163,44 @@
         </custom-order>
     </layer-tree-canvas>
     <legend updateDrawingOrder="true">
-        <legendgroup open="false" checked="Qt::Checked" name="Regione Lombardia">
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Siti (aree)" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="Mappatura_CA_2007_agg201220160507111555268" visible="1"/>
-                </filegroup>
-            </legendlayer>
+        <legendgroup open="false" checked="Qt::Checked" name="Dati Regioni">
+            <legendgroup open="false" checked="Qt::Checked" name="Regione Lombardia">
+                <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Siti (aree)" showFeatureCount="0">
+                    <filegroup open="true" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="Mappatura_CA_2007_agg201220160507111555268" visible="1"/>
+                    </filegroup>
+                </legendlayer>
+            </legendgroup>
+            <legendgroup open="false" checked="Qt::Checked" name="Regione Piemonte">
+                <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Siti (punti)" showFeatureCount="0">
+                    <filegroup open="true" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="PotpresenzaCMA20160507110211508" visible="1"/>
+                    </filegroup>
+                </legendlayer>
+            </legendgroup>
+            <legendgroup open="false" checked="Qt::Checked" name="RegioneLiguria">
+                <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Siti (punti)" showFeatureCount="0">
+                    <filegroup open="true" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="Siti_da_Bonificare20160507120739693" visible="1"/>
+                    </filegroup>
+                </legendlayer>
+            </legendgroup>
+            <legendgroup open="false" checked="Qt::Checked" name="Regione Sardegna">
+                <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="sitiInquinati" showFeatureCount="0">
+                    <filegroup open="true" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="sitiInquinati20160507164310689" visible="1"/>
+                    </filegroup>
+                </legendlayer>
+            </legendgroup>
         </legendgroup>
-        <legendgroup open="false" checked="Qt::Checked" name="Regione Piemonte">
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Siti (punti)" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="PotpresenzaCMA20160507110211508" visible="1"/>
-                </filegroup>
-            </legendlayer>
-        </legendgroup>
-        <legendgroup open="false" checked="Qt::Checked" name="RegioneLiguria">
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Siti (punti)" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="Siti_da_Bonificare20160507120739693" visible="1"/>
-                </filegroup>
-            </legendlayer>
-        </legendgroup>
-        <legendgroup open="false" checked="Qt::Checked" name="Regione Sardegna">
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="sitiInquinati" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="sitiInquinati20160507164310689" visible="1"/>
-                </filegroup>
-            </legendlayer>
-        </legendgroup>
-        <legendgroup open="true" checked="Qt::Checked" name="INAIL-Wired">
+        <legendgroup open="false" checked="Qt::Checked" name="INAIL-Wired">
             <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="INAIL WGS 84" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="INAIL_WGS_8420160507150947744" visible="1"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="true" checked="Qt::Checked" name="Ministero Ambiente">
+        <legendgroup open="false" checked="Qt::Checked" name="Ministero Ambiente">
             <legendgroup open="false" checked="Qt::Checked" name="Provincia Autonoma Bolzano">
                 <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Bolzano_2013" showFeatureCount="0">
                     <filegroup open="true" hidden="false">
