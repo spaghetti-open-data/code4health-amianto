@@ -1,4 +1,4 @@
-  1. ID_Unit�
+  1. ID_Unità
 	<class 'int'>
 	Nulls: True
 	Min: 2
