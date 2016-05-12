@@ -9,9 +9,9 @@ Nasce come una delle sessioni del *civic hackathon* di sabato 7 maggio 2016 dura
 
 L'amianto rappresenta un tema delicato, che ha bisogno di maggior chiarezza e di maggior attenzione da parte di tutti noi. 
 
-# Anagrafica dati
+# Maggiori dettagli
 
-Fare riferimento a questo [foglio elettronico](https://docs.google.com/spreadsheets/d/1bjZMBwLJ3XL2HyTf3woZwfKqLdpSWfMw-c_84pWi5c4/edit#gid=0).
+Siamo partiti dalle fonti raccolte in maniera caotica in questo [foglio elettronico](https://docs.google.com/spreadsheets/d/1bjZMBwLJ3XL2HyTf3woZwfKqLdpSWfMw-c_84pWi5c4/edit#gid=0): seguite [la wiki di progetto](https://github.com/spaghetti-open-data/code4health-amianto/wiki) per avere il quadro aggiornato.
 
 ---
 
