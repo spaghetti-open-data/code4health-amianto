@@ -13,6 +13,3 @@ L'amianto rappresenta un tema delicato, che ha bisogno di maggior chiarezza e di
 
 Siamo partiti dalle fonti raccolte in maniera caotica in questo [foglio elettronico](https://docs.google.com/spreadsheets/d/1bjZMBwLJ3XL2HyTf3woZwfKqLdpSWfMw-c_84pWi5c4/edit#gid=0): seguite [la wiki di progetto](https://github.com/spaghetti-open-data/code4health-amianto/wiki) per avere il quadro aggiornato.
 
----
-
-Track proposta durante SOD16 - http://www.spaghettiopendata.org/content/code4health-opendata-e-salute#.VzI5VBWLSNY 
