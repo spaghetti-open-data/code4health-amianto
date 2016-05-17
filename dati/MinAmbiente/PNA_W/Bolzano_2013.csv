@@ -1,4 +1,4 @@
-Id_Regione;Id_Unit‡;Provincia;Comune;Categoria;Tipologia;Descrizione materiali;A - Friabilit‡;B - Uso pubblico;C - Accessibilit‡;D - Presenza di confinamento;I1 - Quantit‡ di materiale stimato;Peso stimato friabile (kg);Peso stimato compatto (kg);I2 - Presenza di un programma di manutenzione e controllo;I3 - Attivit‡;I4 - Presenza di cause che creano o favoriscono la dispersione di fibre;I5 - Concentrazione di fibre aerodisperse (ff/l);I6 - Area di estensione del sito (m2);Effettiva area perimetrale (m2);I7 - Superficie esposta all'aria;Effettiva superficie con amianto friabile (m2);Effettiva superficie con amianto compatto (m2);I8 - Coinvolgimento del sito in lavori di urbanizzazione;I9 - Stato di conservazione delle strutture;I10 - Tempo trascorso dalla dismissione (anni);Data dismissione (gg-mm-aaaa);I11 - Tipologia di amianto presente;I12 - Dati epidemiologici;I13 - Frequenza di utilizzo;I14 - Distanza dal centro urbano(m);Distanza dal centro urbano (km);I15 - Densit‡ di popolazione;I16 - Et‡ media dei soggetti frequentatori (anni);Tipo di bonifica;Tipo di intervento;Costi totali stimati dellíintervento (Ä);Fondi locali/regionali assegnati;Fondi da richiedere;Classe di priorit‡;Coefficiente di priorit‡;Punteggio mappatura;Coordinate X (WGS84-UTM fuso 32);Coordinate Y (WGS84-UTM fuso 32)
+Id_Regione;Id_Unit√†;Provincia;Comune;Categoria;Tipologia;Descrizione materiali;A - Friabilit√†;B - Uso pubblico;C - Accessibilit√†;D - Presenza di confinamento;I1 - Quantit√† di materiale stimato;Peso stimato friabile (kg);Peso stimato compatto (kg);I2 - Presenza di un programma di manutenzione e controllo;I3 - Attivit√†;I4 - Presenza di cause che creano o favoriscono la dispersione di fibre;I5 - Concentrazione di fibre aerodisperse (ff/l);I6 - Area di estensione del sito (m2);Effettiva area perimetrale (m2);I7 - Superficie esposta allaria;Effettiva superficie con amianto friabile (m2);Effettiva superficie con amianto compatto (m2);I8 - Coinvolgimento del sito in lavori di urbanizzazione;I9 - Stato di conservazione delle strutture;I10 - Tempo trascorso dalla dismissione (anni);Data dismissione (gg-mm-aaaa);I11 - Tipologia di amianto presente;I12 - Dati epidemiologici;I13 - Frequenza di utilizzo;I14 - Distanza dal centro urbano(m);Distanza dal centro urbano (km);I15 - Densit√† di popolazione;I16 - Et√† media dei soggetti frequentatori (anni);Tipo di bonifica;Tipo di intervento;Costi totali stimati dell‚Äôintervento (‚Ç¨);Fondi locali/regionali assegnati;Fondi da richiedere;Classe di priorit√†;Coefficiente di priorit√†;Punteggio mappatura;Coordinate X (WGS84-UTM fuso 32);Coordinate Y (WGS84-UTM fuso 32)
 113;1666;BZ;BRESSANONE;2;Impianti sportivi;copertura;1;2,5;2,5;2,5;10;;850;1;1;1;2;9;;5;;50;1;5;1;;1;1;20;5;;4;2;A;;750;;750;2;0,8;862,8;703036,65;5177648,19
 113;1668;BZ;BOLZANO;2;Edifici residenziali;camino;1;1;1;2,5;5;;75;1;1;1;2;3;;5;;;1;5;1;;1;1;20;5;;4;2;A;;66;;66;4;0,4;216;679971,36;5151904,53
 113;1669;BZ;TIROLO;2;Edifici artigianali e di servizi;copertura;1;1;1;2,5;10;;1020;1;1;1;2;3;;5;;60;1;5;1;;1;1;20;3;;2;2;A;;900;;900;4;0,4;178,2;665529,27;5171491,99
@@ -87,7 +87,7 @@ Id_Regione;Id_Unit‡;Provincia;Comune;Categoria;Tipologia;Descrizione materiali;A
 113;1428;BZ;BOLZANO;2;Edifici residenziali;pavimento;1;1;1;2,5;5;;200;1;1;1;2;3;;5;0;;1;5;1;;1;1;10;5;0;4;2;;;176;0;176;4;0,4;192;679882;5152076
 113;1429;BZ;BOLZANO;2;Edifici residenziali;balcone;1;1;1;1;5;;50;1;1;1;2;5;;5;0;;1;30;1;;1;1;5;5;0;4;2;C;C;44;0;44;5;0,3;137,7;681669;5152216
 113;1430;BZ;MERANO;2;Edifici residenziali;camino;1;1;1;1;5;;170;1;1;1;2;5;;5;0;;1;30;1;;1;1;5;5;0;4;2;C;C;150;0;150;5;0,3;137,7;665098;5170084
-113;1431;BZ;FIE' ALLO SCILIAR;2;Edifici residenziali;pannelli;1;1;1;2,5;5;;200;1;1;1;2;3;;5;0;;1;5;1;;1;1;10;5;0;4;2;;;176;0;176;4;0,4;192;692047;5154618
+113;1431;BZ;FIE  ALLO SCILIAR;2;Edifici residenziali;pannelli;1;1;1;2,5;5;;200;1;1;1;2;3;;5;0;;1;5;1;;1;1;10;5;0;4;2;;;176;0;176;4;0,4;192;692047;5154618
 113;1432;BZ;ORTISEI;2;Edifici residenziali;copertura;1;1;1;1;10;;1700;1;1;1;2;3;;5;0;100;1;30;1;;1;1;10;5;0;4;2;C;C;1499;0;1499;5;0,3;152,1;705608;5161051
 113;1433;BZ;BOLZANO;2;Edifici residenziali;tubazione;1;1;1;2,5;5;;340;1;1;1;2;5;;5;0;;1;5;1;;1;1;10;5;0;4;2;;;300;0;300;4;0,4;200,4;678639;5151230
 113;1434;BZ;ORTISEI;2;Edifici residenziali;copertura;1;1;1;1;10;;4250;1;1;1;2;3;;5;0;250;1;30;1;;1;1;10;5;0;4;2;C;C;3749;0;3749;5;0,3;152,1;704662;5161644
@@ -351,7 +351,7 @@ Id_Regione;Id_Unit‡;Provincia;Comune;Categoria;Tipologia;Descrizione materiali;A
 113;409;BZ;BOLZANO;1;Edifici artigianali e di servizi;copertura;1;1;1;2,5;10;;4250;1;1;1;2;3;;5;0;250;1;5;1;;1;1;10;5;0;4;2;;;;0;;4;0,4;213;678641;5150449
 113;410;BZ;BOLZANO;1;Edifici artigianali e di servizi;copertura;1;1;1;2,5;15;;29920;1;1;1;2;5;;8;0;1760;1;5;1;;1;1;10;5;0;4;2;;;;0;;4;0,4;255;679046;5149401
 113;411;BZ;BOLZANO;2;Edifici residenziali;copertura;1;1;1;2,5;10;;1360;1;1;1;2;3;;5;0;80;1;5;1;;1;1;10;3;0,68;2;2;;;;0;;4;0,4;154,2;682895;5152888
-113;412;BZ;CORNEDO ALL'ISARCO;2;Edifici residenziali;copertura;1;1;1;1;10;;3400;1;1;1;2;3;;5;0;200;1;30;1;;1;1;10;3;0,33;2;2;C;C;2999;0;2999;5;0,3;126,9;685037;5151635
+113;412;BZ;CORNEDO ALL ISARCO;2;Edifici residenziali;copertura;1;1;1;1;10;;3400;1;1;1;2;3;;5;0;200;1;30;1;;1;1;10;3;0,33;2;2;C;C;2999;0;2999;5;0,3;126,9;685037;5151635
 113;413;BZ;BOLZANO;2;Edifici residenziali;copertura;1;1;2,5;1;10;;1700;1;1;1;2;3;;5;0;100;1;30;1;;1;1;10;3;0,2;2;2;C;C;1499;0;1499;5;0,3;201,2;679906;5149626
 113;414;BZ;BOLZANO;2;Edifici residenziali;copertura;1;1;1;2,5;10;;2550;1;3;1;2;3;;5;0;150;1;5;3;;1;1;5;3;0,3;2;2;;;;0;;4;0,4;245;679351;5154400
 113;415;BZ;BOLZANO;2;Edifici residenziali;copertura;1;1;1;1;15;;11900;1;1;1;2;5;;8;0;700;1;30;1;;1;1;10;5;0;4;2;C;C;10496;0;10496;5;0,3;170,1;680464;5153099
@@ -789,7 +789,7 @@ Id_Regione;Id_Unit‡;Provincia;Comune;Categoria;Tipologia;Descrizione materiali;A
 113;1091;BZ;CASTELROTTO;2;Edifici residenziali;copertura;1;1;1;2,5;10;;2550;1;1;1;2;3;;5;0;150;1;5;1;;1;1;10;5;0;4;2;;;;0;;4;0,4;213;696269;5160485
 113;1092;BZ;CASTELROTTO;2;Edifici residenziali;copertura;1;1;1;1;10;;2550;1;1;1;2;3;;5;0;150;1;30;1;;1;1;10;5;0;4;2;C;C;2249;0;2249;5;0,3;152,1;695962;5159685
 113;1093;BZ;CASTELROTTO;2;Edifici residenziali;copertura;1;1;1;2,5;10;;5100;1;1;1;2;3;;5;0;300;1;5;1;;1;1;10;5;0;4;2;;;;0;;4;0,4;213;696079;5160439
-113;1096;BZ;CORNEDO ALL'ISARCO;2;Edifici residenziali;copertura;1;1;1;2,5;10;;850;1;1;1;2;3;;5;0;50;1;5;1;;1;1;10;3;0,78;2;2;;;;0;;4;0,4;154,2;690726;5150778
+113;1096;BZ;CORNEDO ALL ISARCO;2;Edifici residenziali;copertura;1;1;1;2,5;10;;850;1;1;1;2;3;;5;0;50;1;5;1;;1;1;10;3;0,78;2;2;;;;0;;4;0,4;154,2;690726;5150778
 113;1097;BZ;MAREBBE;2;Edifici residenziali;copertura;1;1;1;2,5;10;;1360;1;1;1;2;3;;5;0;80;1;30;1;;1;1;10;5;0;4;2;;;;0;;4;0,4;273;719932;5177744
 113;1099;BZ;MAREBBE;2;Edifici residenziali;copertura;1;1;1;2,5;5;;340;1;1;1;2;3;;5;0;20;1;5;1;;1;1;10;5;0;4;2;;;;0;;4;0,4;192;718555;5175746
 113;1111;BZ;LAION;2;Edifici residenziali;copertura;1;1;1;2,5;10;;5610;1;1;1;2;3;;5;0;330;1;5;1;;1;1;10;3;0;2;2;;;;0;;4;0,4;154,2;696732;5163963
@@ -830,7 +830,7 @@ Id_Regione;Id_Unit‡;Provincia;Comune;Categoria;Tipologia;Descrizione materiali;A
 113;1364;BZ;APPIANO SULLA STRADA DEL VINO;2;Edifici residenziali;sfiato;1;1;1;1;5;;170;1;1;1;2;5;;5;0;;1;30;1;;1;1;10;5;0;4;2;C;C;150;0;150;5;0,3;146,7;673545;5147067
 113;1365;BZ;BRESSANONE;2;Edifici residenziali;copertura;1;1;1;1;15;;45900;1;1;1;2;5;;8;0;2700;1;30;1;;1;1;10;5;0;4;2;C;C;40484;0;40484;5;0,3;170,1;701470;5173688
 113;1366;BZ;VADENA;2;Edifici residenziali;pannelli;1;1;1;1;5;;200;1;1;1;2;3;;5;0;;1;30;1;;1;1;10;3;0,45;2;2;C;C;176;0;176;5;0,3;117,9;677702;5143039
-113;1367;BZ;FIE' ALLO SCILIAR;2;Edifici residenziali;camino;1;1;1;1;5;;170;1;1;1;2;3;;5;0;;1;30;1;;1;1;5;5;0;4;2;C;C;150;0;150;5;0,3;134,1;691842;5154613
+113;1367;BZ;FIE  ALLO SCILIAR;2;Edifici residenziali;camino;1;1;1;1;5;;170;1;1;1;2;3;;5;0;;1;30;1;;1;1;5;5;0;4;2;C;C;150;0;150;5;0,3;134,1;691842;5154613
 113;1368;BZ;NATURNO;2;Edifici residenziali;pannelli;1;1;1;1;5;;200;1;1;1;2;3;;5;0;;1;30;1;;1;1;10;5;0;4;2;C;C;176;0;176;5;0,3;143,1;653199;5168179
 113;1369;BZ;BOLZANO;2;Altro;copertura;1;1;1;2,5;15;;10710;1;1;1;2;5;;8;;630;1;5;1;;1;1;10;5;0;4;2;;;9446;0;9446;4;0,4;255;678366;5149375
 113;1370;BZ;MERANO;2;Edifici residenziali;pannelli;1;1;1;1;5;;200;1;1;1;2;3;;5;0;;1;30;1;;1;1;10;5;0;4;2;C;C;176;0;176;5;0,3;143,1;665653;5169681
@@ -971,7 +971,7 @@ Id_Regione;Id_Unit‡;Provincia;Comune;Categoria;Tipologia;Descrizione materiali;A
 113;712;BZ;TERMENO S.S.D. VINO;2;Edifici residenziali;copertura;1;1;1;2,5;10;;5950;1;1;1;2;3;;5;0;350;1;30;1;;1;1;10;3;0,28;2;2;;;;0;;4;0,4;214,2;672813;5133098
 113;714;BZ;CALDARO S.S.D. VINO;2;Edifici residenziali;copertura;1;1;1;2,5;10;;6800;1;1;1;2;3;;5;0;400;1;5;1;;1;1;10;5;0;4;2;;;;0;;4;0,4;213;673102;5143255
 113;715;BZ;CORTACCIA S.S.D. VINO;1;Edifici artigianali e di servizi;copertura;1;1;1;2,5;15;;28900;1;1;1;2;5;;8;0;1700;1;5;1;;1;1;10;3;0;2;2;;;;0;;4;0,4;196,2;672229;5128896
-113;717;BZ;MAGRE' S.S.D. VINO;2;Edifici residenziali;copertura;1;1;1;2,5;10;;1360;1;1;1;2;3;;5;;80;1;5;1;;1;1;10;5;0;4;2;A;;1200;0;1200;4;0,4;213;670491,1;5128355,58
+113;717;BZ;MAGRE  S.S.D. VINO;2;Edifici residenziali;copertura;1;1;1;2,5;10;;1360;1;1;1;2;3;;5;;80;1;5;1;;1;1;10;5;0;4;2;A;;1200;0;1200;4;0,4;213;670491,1;5128355,58
 113;718;BZ;ORA;1;Edifici artigianali e di servizi;copertura;1;1;1;2,5;15;;22100;1;1;1;2;5;;8;0;1300;1;5;1;;1;1;10;5;0;4;2;;;;0;;4;0,4;255;676806;5135744
 113;719;BZ;ORA;1;Edifici artigianali e di servizi;copertura;1;1;1;2,5;15;;15300;1;1;1;2;5;;8;0;900;1;5;1;;1;1;10;5;0;4;2;;;;0;;4;0,4;255;676821;5135641
 113;720;BZ;ORA;2;Edifici residenziali;copertura;1;1;1;2,5;10;;850;1;1;1;2;5;;5;0;50;1;5;1;;1;1;10;5;0;4;2;;;;0;;4;0,4;221,4;676892;5136246
@@ -1024,7 +1024,7 @@ Id_Regione;Id_Unit‡;Provincia;Comune;Categoria;Tipologia;Descrizione materiali;A
 113;860;BZ;NAZ  SCIAVES;1;Edifici industriali e loro pertinenze;copertura;1;1;1;2,5;15;;37400;1;1;1;2;9;;8;0;2200;1;5;1;;1;1;10;5;0;4;2;;;;0;;4;0,4;271,8;703190;5182594
 113;861;BZ;APPIANO SULLA STRADA DEL VINO;2;Edifici residenziali;copertura;1;1;1;2,5;10;;1020;1;1;1;2;3;;5;0;60;1;5;1;;1;1;10;3;0,3;2;2;;;;0;;4;0,4;154,2;674052;5146220
 113;862;BZ;RENON;2;Edifici residenziali;copertura;1;1;1;2,5;10;;4250;1;1;1;2;3;;5;0;250;1;30;1;;1;1;10;3;0,87;2;2;;;;0;;4;0,4;214,2;685814;5152200
-113;879;BZ;CORNEDO ALL'ISARCO;1;Edifici artigianali e di servizi;copertura;1;1;1;2,5;15;;18700;1;1;1;2;5;;8;0;1100;1;5;1;;1;1;10;3;0,37;2;2;;;;0;;4;0,4;196,2;687248;5151645
+113;879;BZ;CORNEDO ALL ISARCO;1;Edifici artigianali e di servizi;copertura;1;1;1;2,5;15;;18700;1;1;1;2;5;;8;0;1100;1;5;1;;1;1;10;3;0,37;2;2;;;;0;;4;0,4;196,2;687248;5151645
 113;900;BZ;VARNA;2;Edifici residenziali;copertura;1;1;1;2,5;15;;11900;1;1;1;2;5;;8;0;700;1;5;1;;1;1;10;5;0;4;2;;;;0;;4;0,4;255;702623;5178949
 113;901;BZ;VARNA;2;Edifici residenziali;copertura;1;1;1;2,5;10;;1700;1;1;5;2;5;;5;0;100;1;5;1;;1;1;10;5;0;4;2;;;;0;;4;0,4;231;702601;5179016
 113;902;BZ;VARNA;2;Edifici residenziali;copertura;1;1;1;2,5;15;;11900;1;1;1;2;5;;8;0;700;1;5;1;;1;1;10;5;0;4;2;;;;0;;4;0,4;255;702569;5179020
@@ -1046,10 +1046,10 @@ Id_Regione;Id_Unit‡;Provincia;Comune;Categoria;Tipologia;Descrizione materiali;A
 113;987;BZ;FALZES;2;Edifici residenziali;copertura;1;1;1;1;10;;8500;1;1;1;2;5;;5;0;500;1;5;1;;1;1;10;5;0;4;2;C;C;7497;0;7497;5;0,3;110,7;717287;5188833
 113;989;BZ;RODENGO;2;Edifici residenziali;copertura;1;1;1;2,5;10;;1020;1;1;1;2;3;;5;0;60;1;30;1;;1;1;10;3;0,11;2;2;;;;0;;4;0,4;214,2;705688;5185080
 113;991;BZ;RODENGO;2;Edifici residenziali;copertura;1;1;1;2,5;10;;5950;1;1;1;2;3;;5;0;350;1;30;1;;1;1;10;5;0;4;2;;;;0;;4;0,4;273;705298;5183651
-113;1010;BZ;FIE' ALLO SCILIAR;2;Edifici residenziali;copertura;1;1;1;2,5;10;;850;1;1;1;2;3;;5;0;50;1;5;1;;1;1;10;5;0;4;2;;;;0;;4;0,4;213;691623;5153000
-113;1016;BZ;FIE' ALLO SCILIAR;2;Edifici residenziali;copertura;1;1;1;2,5;10;;850;1;1;1;2;3;;5;0;50;1;5;1;;1;1;10;5;0;4;2;;;;0;;4;0,4;213;691695;5153084
-113;1017;BZ;FIE' ALLO SCILIAR;2;Edifici residenziali;copertura;1;1;1;2,5;10;;1360;1;1;1;2;3;;5;0;80;1;5;1;;1;1;10;5;0;4;2;;;;0;;4;0,4;213;691680;5154444
-113;1018;BZ;FIE' ALLO SCILIAR;2;Edifici residenziali;copertura;1;1;1;2,5;10;;850;1;1;1;2;3;;5;0;50;1;5;1;;1;1;10;3;0;2;2;;;;0;;4;0,4;154,2;693365;5156640
+113;1010;BZ;FIE  ALLO SCILIAR;2;Edifici residenziali;copertura;1;1;1;2,5;10;;850;1;1;1;2;3;;5;0;50;1;5;1;;1;1;10;5;0;4;2;;;;0;;4;0,4;213;691623;5153000
+113;1016;BZ;FIE  ALLO SCILIAR;2;Edifici residenziali;copertura;1;1;1;2,5;10;;850;1;1;1;2;3;;5;0;50;1;5;1;;1;1;10;5;0;4;2;;;;0;;4;0,4;213;691695;5153084
+113;1017;BZ;FIE  ALLO SCILIAR;2;Edifici residenziali;copertura;1;1;1;2,5;10;;1360;1;1;1;2;3;;5;0;80;1;5;1;;1;1;10;5;0;4;2;;;;0;;4;0,4;213;691680;5154444
+113;1018;BZ;FIE  ALLO SCILIAR;2;Edifici residenziali;copertura;1;1;1;2,5;10;;850;1;1;1;2;3;;5;0;50;1;5;1;;1;1;10;3;0;2;2;;;;0;;4;0,4;154,2;693365;5156640
 113;1019;BZ;CASTELROTTO;2;Edifici residenziali;copertura;1;1;1;2,5;10;;5100;1;1;1;2;3;;5;0;300;1;5;1;;1;1;10;5;0;4;2;;;;0;;4;0,4;213;695648;5162946
 113;1020;BZ;CASTELROTTO;2;Edifici residenziali;copertura;1;1;1;2,5;10;;3400;1;1;1;2;3;;5;0;200;1;5;1;;1;1;10;3;0,17;2;2;;;;0;;4;0,4;154,2;695877;5162916
 113;1021;BZ;CASTELROTTO;2;Edifici residenziali;copertura;1;1;1;2,5;10;;5100;1;1;1;2;3;;5;0;300;1;5;1;;1;1;10;5;0;4;2;;;;0;;4;0,4;213;695680;5162955
@@ -1069,3 +1069,4 @@ Id_Regione;Id_Unit‡;Provincia;Comune;Categoria;Tipologia;Descrizione materiali;A
 113;1075;BZ;CHIUSA;1;Edifici industriali e loro pertinenze;copertura;1;1;1;2,5;10;;5950;1;1;1;2;9;;5;0;350;1;5;1;;1;1;10;3;0;2;2;;;;0;;4;0,4;179,4;697618;5168757
 113;1076;BZ;LAION;2;Edifici residenziali;copertura;1;1;1;2,5;10;;2210;1;1;1;2;3;;5;0;130;1;5;1;;1;1;10;5;0;4;2;;;;0;;4;0,4;213;700645;5163290
 113;1085;BZ;ORTISEI;2;Edifici residenziali;copertura;1;1;1;2,5;10;;3060;1;1;1;2;;;5;0;180;1;5;1;;1;1;10;5;0;4;2;;;;0;;4;0,4;213;704954;5161195
+;;;;;;;;;;;;;8462978;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

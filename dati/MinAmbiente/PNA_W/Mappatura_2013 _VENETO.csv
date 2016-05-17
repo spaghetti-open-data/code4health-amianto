@@ -1,9 +1,9 @@
-"AZIENDA ULSS";"ID_Unità";"Provincia ";"Comune";"Categoria                
-";"Tipologia";"Descrizione materiali";"A - Friabilità";" B - Uso pubblico";" C - Accessibilità";" D - Presenza di confinamento";" I1 - Quantità di materiale stimato (Kg)";"Peso stimato friabile (kg)";"Peso stimato compatto (kg)";" I2 -
-Presenza di un programma di manutenzione e controllo ";" I3 - Attività";" I4 - 
+"AZIENDA ULSS";"ID_Unita";"Provincia ";"Comune";"Categoria                
+";"Tipologia";"Descrizione materiali";"A - Friabilita";" B - Uso pubblico";" C - Accessibilita";" D - Presenza di confinamento";" I1 - Quantita di materiale stimato (Kg)";"Peso stimato friabile (kg)";"Peso stimato compatto (kg)";" I2 -
+Presenza di un programma di manutenzione e controllo ";" I3 - Attivita";" I4 - 
 Presenza di cause che creano o favoriscono la dispersione di fibre";" I5 - Concentrazione di fibre aerodisperse (ff/l) ";" I6 - 
 Area di estensione del sito (m2)";"? Effettiva area ricompresa nel perimetro del sito  (m2)";" I7 - 
-Superficie esposta all’aria (m2)";" Effettiva superficie con amianto friabile  (m2)";" Effettiva superficie con amianto compatto (m2)";" I8 - Coinvolgimento del sito in lavori di urbanizzazione";" I9 - 
+Superficie esposta allaaria (m2)";" Effettiva superficie con amianto friabile  (m2)";" Effettiva superficie con amianto compatto (m2)";" I8 - Coinvolgimento del sito in lavori di urbanizzazione";" I9 - 
 Stato di conservazione delle strutture edili";" I10 - 
 Tempo trascorso dalla dismissione (anni)";"Data dismissione
 (gg-mm-aaa)";" I11 - 
@@ -11,8 +11,8 @@ Tipologia di amianto presente";" I12 -
 Dati epidemiologici";" I13 - 
 Frequenza di utilizzo";" I14 - 
 Distanza dal centro urbano (m)";"Distanza dal centro urbano (km)";" I15 - 
-Densità di popolazione ";" I16 - 
-Età media dei soggetti frequentatori (anni)";"Stato della bonifica ";"Tipo di intervento ";"Costi Totali stimati dell'intervento (€)";"Fondi locali/regionali assegnati (€)";"Stima dei fabbisogni finanziari (€)";"Classe di priorità";"Coefficiente di priorità";"Punteggio Mappatura";"Coordinate X (WGS84-UTM fuso 32)";"Coordinate Y (WGS84-UTM fuso 32)"
+Densita di popolazione ";" I16 - 
+Eta media dei soggetti frequentatori (anni)";"Stato della bonifica ";"Tipo di intervento ";"Costi Totali stimati dell'intervento (a)";"Fondi locali/regionali assegnati (a)";"Stima dei fabbisogni finanziari (a)";"Classe di priorita";"Coefficiente di priorita";"Punteggio Mappatura";"Coordinate X (WGS84-UTM fuso 32)";"Coordinate Y (WGS84-UTM fuso 32)"
 1;1;"BELLUNO";"longarone";1;"edificio artigianale";"lastre ondulate";1,00;1,00;1,00;2,50;10,00;0,00;9560,00;10,00;1,00;1,00;2,00;5,00;1000,00;8,00;"0";"560";1,00;5,00;1,00;;1,00;1,00;20,00;3,00;"1";2,00;2,00;"a";"c";5600,00;;;4,00;0,40;220,80;292150,641;5125801,4
 1;2;"BELLUNO";"castello lavazzo";1;"edificio artigianale";"lastre piane";1,00;1,00;1,00;2,50;10,00;0,00;2805,00;1,00;1,00;1,00;2,00;5,00;300,00;5,00;"0";"165";1,00;5,00;1,00;;1,00;1,00;5,00;3,00;"0,5";2,00;2,00;"a";"c";2000,00;;;4,00;0,40;150,60;297460,91;5128098,32
 1;3;"BELLUNO";"longarone";1;"edificio industriale";"intonaco di ricopertura trave";1,00;1,00;1,00;2,50;5,00;10,00;0,00;1,00;1,00;1,00;2,00;3,00;200,00;5,00;"5";"0";1,00;5,00;1,00;;1,00;1,00;20,00;1,00;"4";2,00;2,00;"a";"c";"1000";;;4,00;0,40;140,40;285040,38;5113642,58
@@ -499,7 +499,7 @@ B) pavimenti in vinilamianto";2;2,5;2,5;2,5;15;;129000;1;1;1;2;9;;10;;8600;1,00;
 12;466;"VENEZIA";"MARCON";2;"Uffici pubblica amministrazione";"Lastre di amianto piane o ondulate";1;1;2,5;2,5;15;0;20000;1;1;1;5;5;1200;8;;1200;1;30;1;;1;1;20;5;0;4;2;"B";"A";22000;0;15000;3;0,7;1627,5;748230,158;5114898,037
 13;467;"VENEZIA";"MIRA";1;"Edifici industriali e loro pertinenze";"Lastre di amianto piane o ondulate";1;1;1;2,5;10;0;10778;1;1;1;2;5;;8;;634;2;5;;;;1;5;1;1;2;2;"da programmare";"sostituzione";"non noto";"non noto";"non noto";4;0,4;142,20;"279061.74";"5038132.46"
 13;468;"VENEZIA";"MIRA";1;"Edifici industriali e loro pertinenze";"Lastre di amianto piane o ondulate";1;1;1;2,5;;0;10778;1;1;1;2;5;;8;;634;2;5;;;;1;5;1;1;2;2;"da programmare";"sostituzione";"non noto";"non noto";"non noto";4;0,4;100,2;279061,74;5038132,46
-13;469;"VENEZIA";"MIRA";1;"Edifici industriali e loro pertinenze";"Lastre di amianto piane o ondulate";1;1;1;2,5;;0;35700;1;1;1;2;3;;5;;2100;2;5;;;;1;5;1;1;2;2;"già incapsulato ";"reincapsulamento o sostituzione";"non noto";"non noto";"non noto";4;0,4;79,2;279061,74;5038132,46
+13;469;"VENEZIA";"MIRA";1;"Edifici industriali e loro pertinenze";"Lastre di amianto piane o ondulate";1;1;1;2,5;;0;35700;1;1;1;2;3;;5;;2100;2;5;;;;1;5;1;1;2;2;"gia incapsulato ";"reincapsulamento o sostituzione";"non noto";"non noto";"non noto";4;0,4;79,2;279061,74;5038132,46
 13;470;"VENEZIA";"DOLO";2;"Ospedali e case di cura";"Tubi, canalizzazioni e contenitori per il trasporto e lo stoccaggio di fluidi, ad uso civile e industriale";2;2,5;2,5;1;;2.500;29300;1;1;1;2;3;;5;;1500;5;5;;;;1;5;5;0;4;2;"da programmare";;"non noto";"non noto";"non noto";2;0,8;428,4;270568,432;5033833,08
 13;471;"VENEZIA";"MIRANO";2;"Ospedali e case di cura";"Tubi, canalizzazioni e contenitori per il trasporto e lo stoccaggio di fluidi, ad uso civile e industriale";1;2,5;2,5;2,5;;0;3275;1;1;1;2;3;;5;;225;5;5;;;;1;5;5;0;4;2;"da programmare";"rimozione";"non noto";"non noto";"non noto";2;0,8;507,6;274466,559;5042220,187
 13;472;"VENEZIA";"NOALE";2;"Ospedali e case di cura";"Tubi, canalizzazioni e contenitori per il trasporto e lo stoccaggio di fluidi, ad uso civile e industriale";1;2,5;2,5;2,5;;0;1200;1;1;1;2;3;;5;;64;5;5;;;;1;5;5;0;4;2;"da programmare";"rimozione";"non noto";"non noto";"non noto";2;0,8;507,6;276581,187;5051812,59
@@ -763,9 +763,9 @@ B) pavimenti in vinilamianto";2;2,5;2,5;2,5;15;;129000;1;1;1;2;9;;10;;8600;1,00;
 17;730;"PADOVA";"Merlara";2;"Impianti sportivi";"lastre di amianto piane o ondulate";1;2,5;2,5;2,5;10;0;5270;10;1;1;2;3;;5;;310;1;5;;;;1;10;1;;2;10;"A";;;;;2;0,8;633,60;"693082.03";"4999247.98"
 17;731;"PADOVA";"Monselice";1;"Edifici industriali e loro pertinenze";"lastre di amianto piane o ondulate";1;1;2,5;2,5;15;0;136000;1;1;1;2;9;;10;;8000;1;5;;;;1;20;1;;2;2;"A";;;;;3;0,7;532,35;"715948.77";"5014462.71"
 17;732;"PADOVA";"Este";1;"Edifici industriali e loro pertinenze";"lastre di amianto piane o ondulate";1;1;2,5;2,5;10;0;2057;1;1;1;2;3;;5;;121;1;5;;;;1;10;1;;2;2;"A";;;;;3;0,7;325,50;"707977.13";"5012494.46"
-17;733;"PADOVA";"Vò";2;"Edifici artigianali e di servizio";"lastre di amianto piane o ondulate";1;1;2,5;2,5;10;0;5610;10;1;1;2;3;;5;;330;1;5;;;;1;5;3;1;4;2;"A";;;;;3;0,7;428,40;"706627.92";"5022795.56"
+17;733;"PADOVA";"Va";2;"Edifici artigianali e di servizio";"lastre di amianto piane o ondulate";1;1;2,5;2,5;10;0;5610;10;1;1;2;3;;5;;330;1;5;;;;1;5;3;1;4;2;"A";;;;;3;0,7;428,40;"706627.92";"5022795.56"
 17;734;"PADOVA";"Merlara";2;"Casa di Riposo";"lastre di amianto piane o ondulate";1;1;2,5;2,5;10;0;1105;10;1;1;2;3;;5;;65;1;5;;;;1;5;3;1;4;2;"A";;;;;3;0,7;428,40;"691944.75";"5004390.64"
-17;735;"PADOVA";"Montagnana";2;"Altro (edificio civile di proprietà delle'Ente)";"lastre di amianto piane o ondulate";1;1;2,5;2,5;10;0;6630;10;1;1;2;10;;5;;390;1;5;;;;1;5;0;0,5;4;2;"A";;;;;3;0,7;391,65;"698834.79";"5011330.61"
+17;735;"PADOVA";"Montagnana";2;"Altro (edificio civile di proprieta delle'Ente)";"lastre di amianto piane o ondulate";1;1;2,5;2,5;10;0;6630;10;1;1;2;10;;5;;390;1;5;;;;1;5;0;0,5;4;2;"A";;;;;3;0,7;391,65;"698834.79";"5011330.61"
 17;736;"PADOVA";"Conselve";1;"Edifici industriali e loro pertinenze";"lastre di amianto piane o ondulate";1;1;2,5;2,5;15;0;25500;1;1;1;2;5;;8;;1500;1;5;;;1;1;20;3;1;4;2;"A";;;;;3;0,7;567,00;"724556.32";"5013319.19"
 17;737;"PADOVA";"Galzignano T";2;"Strutture turistiche  ";"tubi,per il trasporto e lo stoccaggio di fluidi ad uso civile ed industriale";2;1;2,5;2,5;5;160;0;1;1;1;2;;;5;;;1;5;;;;1;5;3;1;4;2;"A";;;;;2;0,8;333,60;"715328.04";"5019984.68"
 17;738;"PADOVA";"Galzignano T";2;"Strutture turistiche ";"Comignoli";1;1;1;2,5;5;0;50;1;1;5;2;3;;5;;3;1;5;;;;1;5;3;1;4;2;"A";;;;;3;0,7;263,55;"715328.04";"5019984.68"
@@ -786,9 +786,9 @@ B) pavimenti in vinilamianto";2;2,5;2,5;2,5;15;;129000;1;1;1;2;9;;10;;8600;1,00;
 17;753;"PADOVA";"Montagnana";2;"Ospedale Civile parte dismessa";"Tubazioni con rivestimento in amianto";2;1;2,5;2,5;10;1000;0;1;1;5;;5;;;;;1;5;;;;1;20;5;0;4;2;"A";;;;;2;0,8;210,80;"707934.77";"5011744.04"
 17;754;"PADOVA";"Due Carrare";2;"Edifici artigianali e di servizio";"lastre di amianto piane o ondulate";1;1;1;2,5;10;0;8024;;1;1;2;3;;5;;472;1;5;;;1;1;20;1;1,5;2;2;"A";;;;;3;0,7;274,05;"724500.94";"5020329.25"
 17;755;"PADOVA";"Megliadino San Fidenzio";2;"Edificio artigianale e di servizio";"lastre di amianto piane o ondulate";1;1;1;2,5;10;0;6630;;1;1;2;3;;5;;390;1;5;;;1;1;20;3;1;2;2;"A";;;;;3;0,7;303,45;"697410.84";"5010241.81"
-17;756;"PADOVA";"Battaglia T";2;"altro (sottocentrale)";"n° 2 canaline per cavi";1;1;2,5;2,5;5;;10;1;1;1;2;3;;5;;1;1;5;;;1;1;5;3;1;2;2;"A";;;;;3;0,7;270,90;"718193.48";"5018826.52"
-17;757;"PADOVA";"Pozzonovo";2;"altro (sottocentrale)";"n° 4 canaline per cavi";1;1;2,5;2,5;5;;10;1;1;1;2;3;;5;;1;1;5;;;1;1;5;3;1;2;2;"A";;;;;3;0,7;270,90;"718633.1";"5008817.9"
-17;758;"PADOVA";"San Pietro Viminario";2;"altro (sottocentrale)";"n° 1 canna fumaria gruppo elettrogeno";1;1;2,5;2,5;5;;20;1;1;1;2;3;;5;;5;1;5;;;1;1;5;3;1;2;2;"A";;;;;3;0,7;270,90;"719167.77";"5015446.66"
+17;756;"PADOVA";"Battaglia T";2;"altro (sottocentrale)";"na 2 canaline per cavi";1;1;2,5;2,5;5;;10;1;1;1;2;3;;5;;1;1;5;;;1;1;5;3;1;2;2;"A";;;;;3;0,7;270,90;"718193.48";"5018826.52"
+17;757;"PADOVA";"Pozzonovo";2;"altro (sottocentrale)";"na 4 canaline per cavi";1;1;2,5;2,5;5;;10;1;1;1;2;3;;5;;1;1;5;;;1;1;5;3;1;2;2;"A";;;;;3;0,7;270,90;"718633.1";"5008817.9"
+17;758;"PADOVA";"San Pietro Viminario";2;"altro (sottocentrale)";"na 1 canna fumaria gruppo elettrogeno";1;1;2,5;2,5;5;;20;1;1;1;2;3;;5;;5;1;5;;;1;1;5;3;1;2;2;"A";;;;;3;0,7;270,90;"719167.77";"5015446.66"
 17;759;"PADOVA";"Conselve";2;"Impianti sportivi";"lastre di amianto piane o ondulate";1;2,5;2,5;2,5;5;0;510;1;1;1;2;3;;5;;30;1;5;;;1;1;10;3;1;2;10;"A";;;;;2;0,8;552,00;"725841.05";"5013339.03"
 17;760;"PADOVA";"Urbana";1;"Edifici artigianali e di servizio";"lastre di amianto piane o ondulate";1;1;2,5;2,5;15;0;21097;10;1;1;2;5;;8;;1241;1;5;;;1;1;20;1;1,5;2;2;"A";;;;;3;0,7;559,65;"692294.05";"5005847.01"
 17;761;"PADOVA";"Este";1;"Edifici industriali e loro pertinenze";"lastre di amianto piane o ondulate";1;1;2,5;2,5;10;0;8005;1;1;1;2;5;;8;;550;1;5;;;1;1;20;1;3;2;2;"A";;;;;3;0,7;441,00;"710729.89";"5011338.4"
@@ -902,7 +902,7 @@ B) pavimenti in vinilamianto";2;2,5;2,5;2,5;15;;129000;1;1;1;2;9;;10;;8600;1,00;
 20;869;"VERONA";"VERONA";1;"Edifici Industriali e loro pertinenze";"lastre di amianto piane o ondulate";1;1;1;1;15;;53000;1;1;1;5;5;4050;8;;3104;1,00;5;;;1;1;5;5;350;2;2;" B";;"A";;;5;0,3;192,6;"682405.38";"5022270.65"
 20;870;"VERONA";"VERONA";1;"Edifici Industriali e loro pertinenze";"tubi, canalizzazioni e contenitori per il trasporto e lo stoccaggio di fluidi, ad uso civile  e industriale";2;1;2,5;2,5;5;100;;1;1;1;2;5;4050;5;;10;1,00;5;;;1;1;5;5;350;2;2;"A";;;;;2;0,8;376,8;"657601.85";"5040294.82"
 20;871;"VERONA";"VERONA";1;"Edifici Industriali e loro pertinenze";"lastre di amianto piane o ondulate";1;1;1;2,5;10;;1462;1;1;1;5;5;2650;5;;86;1,00;5;;;1;1;5;5;200;2;2;"A";;;;;4;0,4;330;"669010.36";"5042528.98"
-20;872;"VERONA";"VERONA";1;"Edifici industriali e loro pertinenze";"tubi, canalizzazioni e contenitori per il trasporto e lo stoccaggio di fluidi, ad uso civile  e industriale e lastre di amianto piane o ondulate";1;1;1;1;15;20000;15000;1;3;1;2;9;28000;10;3116;1556;1;5;3;2006;3;10;5;5;0;4;2;"C";"B, A";"300.000 € friabile e 40000 €  compatto";"si per fotovoltaico";;5;0,3;234;"686830.01";"5019845.47"
+20;872;"VERONA";"VERONA";1;"Edifici industriali e loro pertinenze";"tubi, canalizzazioni e contenitori per il trasporto e lo stoccaggio di fluidi, ad uso civile  e industriale e lastre di amianto piane o ondulate";1;1;1;1;15;20000;15000;1;3;1;2;9;28000;10;3116;1556;1;5;3;2006;3;10;5;5;0;4;2;"C";"B, A";"300.000 a friabile e 40000 a  compatto";"si per fotovoltaico";;5;0,3;234;"686830.01";"5019845.47"
 20;873;"VERONA";"VERONA";1;"Edifici industriali e loro pertinenze";"guarnizioni di attrito per macchine ed impianti industriali ";1;1;2,5;2,5;10;;"850Kg (3000 guarnizioni) ";1;3;1;5;9;3000;5;;50;1;5;1;gen-12;3;10;5;5;0;4;2;"A";;;;;4;0,4;811,2;"655429.72";"5033049.92"
 20;874;"VERONA";"VERONA";1;"Edifici industriali e loro pertinenze";"Lastre di amianto piane o ondulate";1;1;2,5;2,5;15;;51000;1;1;1;5;9;3000;8;;3000;1;5;;;1;10;20;5;0;2;2;"A";;;;;3;0,7;1257,9;"660427.15";"5026908.27"
 20;875;"VERONA";"VERONELLA";1;"Edifici industriali e loro pertinenze";"Lastre di amianto piane o ondulate";1;1;2,5;2,5;15;;258400;1;1;1;5;9;7600;10;;15200;1;5;;;1;1;20;5;0;2;2;"C";"A, B";;;;3;0,7;1192,8;"678033.56";"5029678.82"
