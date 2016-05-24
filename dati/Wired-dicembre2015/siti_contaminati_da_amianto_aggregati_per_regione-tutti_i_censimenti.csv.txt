@@ -1,0 +1,49 @@
+  1. ID
+	<type 'int'>
+	Nulls: False
+	Min: 1
+	Max: 84906
+	Sum: 3604556871
+	Mean: 42453.5
+	Median: 42453.5
+	Standard Deviation: 24510.2509762
+	Unique values: 84906
+  2. Comune
+	<type 'unicode'>
+	Nulls: False
+	Unique values: 3241
+	5 most frequent values:
+		Vercelli:	2300
+		Alessandria:	1734
+		Torino:	1367
+		Casale Monferrato:	1133
+		Brescia:	1093
+	Max length: 50
+  3. Classe di priorità
+	<type 'unicode'>
+	Nulls: False
+	Unique values: 6
+	5 most frequent values:
+		Informazione sconosciuta:	59073
+		Basso:	10693
+		Medio:	7554
+		Alto:	5344
+		Molto basso:	1937
+	Max length: 24
+  4. Fonte
+	<type 'unicode'>
+	Nulls: False
+	Values: Arpa Lombardia, 2015, Ministero dell'Ambiente, mappatura amianto 2013, Arpa Piemonte, dati aggiornati al 21/09/2015, Ministero dell'Ambiente, mappatura amianto 2010
+  5. Area di riferimento
+	<type 'unicode'>
+	Nulls: False
+	Unique values: 19
+	5 most frequent values:
+		Piemonte:	32422
+		Lombardia:	26006
+		Marche:	12248
+		Abruzzo:	2339
+		Sardegna:	1966
+	Max length: 29
+
+Row count: 84906
