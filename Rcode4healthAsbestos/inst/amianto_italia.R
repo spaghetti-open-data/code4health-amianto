@@ -132,6 +132,7 @@ idf <- which(classes=="data.frame")
 
 table <- '/home/ecor/Dropbox/R-packages/code4health-amianto/Rcode4healthAsbestos/inst/table.csv' 
 writeFields_file <- '/home/ecor/Dropbox/R-packages/code4health-amianto/Rcode4healthAsbestos/inst/lista_campi.txt'
+writeFields_csv <- str_replace(writeFields_file,".txt",".csv")
 
 write.table(sources,file=table,sep=";",row.names=FALSE)
 
@@ -140,12 +141,24 @@ write.table(sources,file=table,sep=";",row.names=FALSE)
 ### FIELDS 
 
 writeFields <- c("","#CAMPI DEI DATA FRAMES","","")
+writeFields_csv_v <- "" 
 for (it in names(fields)) {
 	
-	writeFields <- c(writeFields,sprintf("#%s",it),fields[[it]],"")
-
+	
+	
+	ff <- paste(fields[[it]],collapse="  ")
+	ffi <- fields[[it]]
+	coords <- str_split(attr(dl[[it]],which="coords")," AND ")[[1]]
+	print(coords)
+	ffi <- ffi[!(ffi %in% coords)]
+	
+	writeFields <- c(writeFields,sprintf("#%s",it),ff,"")
+	writeFields_csv_v[it] <- paste(c(it,ffi),collapse=";")
+	
+	
 	
 }
 
 writeLines(writeFields,con=writeFields_file)
+writeLines(writeFields_csv_v,con=writeFields_csv)
 ### END script
