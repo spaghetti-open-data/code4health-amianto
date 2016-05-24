@@ -8,6 +8,8 @@
 
 ## Dettagli
 
-La fonte usata è stata quella del Ministero dell'Ambiente, con la rilevazione del 2013.
+La fonte usata è stata quella del Ministero dell'Ambiente, con la rilevazione del 2013, dove possibile.
+
+In generale la colonna "Fonte" presenta questi valori: Arpa Lombardia, 2015, Ministero dell'Ambiente, mappatura amianto 2013, Arpa Piemonte, dati aggiornati al 21/09/2015, Ministero dell'Ambiente, mappatura amianto 2010
 
 Ulteriori informazioni sul processo di aggregazione del dato in [questo commento qui](https://github.com/spaghetti-open-data/code4health-amianto/issues/5#issuecomment-221368999)
