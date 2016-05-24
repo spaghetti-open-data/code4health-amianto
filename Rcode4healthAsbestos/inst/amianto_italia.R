@@ -15,7 +15,7 @@ library(Rcode4healthAsbestos)
 ###
 ## IN alternativa a library(Rcode4healthAsbestos) si puo richamare direttamente il file
 ## alternatively to library(Rcode4healthAsbestos) you can load the R functions directly
- #source('/home/ecor/Dropbox/R-packages/code4health-amianto/Rcode4health-asbestos/R/getData.R') 
+source('/home/ecor/Dropbox/R-packages/code4health-amianto/Rcode4healthAsbestos/R/getData.R') 
 #
 ###
 projectDir <- '/home/ecor/Dropbox/R-packages/code4health-amianto'  ## REPLACE WITH YOUR PROJECT DIR
@@ -125,14 +125,27 @@ classes <- sapply(X=dl,FUN=class)
 fields <- lapply(X=dl,FUN=names)
 
 sources$class <- classes[sources$name]
+sources$proj_CRS <- sapply(X=dl[sources$name],FUN=attr,which="proj_CRS")
 sources$coordfield <- sapply(X=dl[sources$name],FUN=attr,which="coords")
 
 idf <- which(classes=="data.frame")
 
-table <- '/home/ecor/Dropbox/R-packages/code4health-amianto/Rcode4health-asbestos/inst/table.csv' 
-
+table <- '/home/ecor/Dropbox/R-packages/code4health-amianto/Rcode4healthAsbestos/inst/table.csv' 
+writeFields_file <- '/home/ecor/Dropbox/R-packages/code4health-amianto/Rcode4healthAsbestos/inst/lista_campi.txt'
 
 write.table(sources,file=table,sep=";",row.names=FALSE)
 
 
+
+### FIELDS 
+
+writeFields <- c("","#CAMPI DEI DATA FRAMES","","")
+for (it in names(fields)) {
+	
+	writeFields <- c(writeFields,sprintf("#%s",it),fields[[it]],"")
+
+	
+}
+
+writeLines(writeFields,con=writeFields_file)
 ### END script

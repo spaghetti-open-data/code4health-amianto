@@ -21,7 +21,7 @@ NULL
 #' 
 
 
-getAsbestosFile <- function(dsn=NA,layer=NA,sep=c(";",","),header=TRUE,...) {
+getAsbestosFile <- function(dsn=NA,layer=NA,sep=c(";",","),header=TRUE,force.spatial=TRUE,...) {
 	
 	
 	
@@ -35,7 +35,7 @@ getAsbestosFile <- function(dsn=NA,layer=NA,sep=c(";",","),header=TRUE,...) {
 	
 		sep <- sep[str_detect(x[1],sep)]
 		
-		print(sep)
+		
 		out <- read.table(dsn,sep=sep,header=header,...)
 		
 		
@@ -80,14 +80,43 @@ getAsbestosFile <- function(dsn=NA,layer=NA,sep=c(";",","),header=TRUE,...) {
 		
 		
 		attr(out,"coords") <- paste(coords,collapse=" AND ")
+		attr(out,"proj_CRS") <- NA
 		
 		
-		
-		
+		if ((force.spatial==TRUE) & (length(coords)==2)) {
+			
+			
+				out$xcc <- out[,coords[1]]
+				out$ycc <- out[,coords[2]]
+				
+				out$xcc <- as.numeric(str_replace_all(out$xcc,",","."))
+				out$ycc <- as.numeric(str_replace_all(out$ycc,",","."))
+				
+				
+				###
+				###
+				isna <- which(is.na(out$xcc) | is.na(out$ycc))
+				
+				if (length(isna)>0) {
+					
+					msg <- sprintf("%s missing value at rows %s",dsn,paste(isna,collapse=" "))
+					warning(msg)
+					out <- out[-isna,]
+					
+				}
+				
+				print(head(out[,coords]))
+				coordinates(out) <- ~xcc+ycc
+			
+				
+				attr(out,"coords") <- paste(coords,collapse=" AND ")
+				attr(out,"proj_CRS") <- proj4string(out)
+		}
 		
 	} else {
 		
 		attr(out,"coords") <-  "NOT IN DATA"
+		attr(out,"proj_CRS") <- proj4string(out)
 	}
 	
 	return(out)
