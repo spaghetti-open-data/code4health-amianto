@@ -1,0 +1,57 @@
+{% comment %}
+# Subject to the terms of the GNU AFFERO GENERAL PUBLIC LICENSE, v. 3.0. If a copy of the AGPL was not
+# distributed with this file, You can obtain one at http://www.gnu.org/licenses/agpl.txt
+#
+# Author: Davide Galletti                davide   ( at )   c4k.it
+{% endcomment %}
+
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Messaggi BOT Telegram</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="Description" lang="en" content="Knowledge Oriented Architecture - Proof of concept">
+		<meta name="author" content="Davide Galletti - davide@c4k.it">
+		<meta name="robots" content="index, follow">
+
+		<!-- icons -->
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  		<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="container">
+				<h1 class="header-heading">
+                Test Telegram bot
+				</h1>
+			</div>
+		</div>
+		<div class="nav-bar">
+			<div class="container">
+				<ul class="nav">
+				    <li><a href="">Home</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="content">
+			<div class="container">
+				<div class="main">
+					<div id="_time"></div>
+	                {% block content %}{% endblock %}
+	                {% block message %}{% endblock %}
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="container">
+				&nbsp;
+			</div>
+		</div>
+	</body>
+</html>
+                

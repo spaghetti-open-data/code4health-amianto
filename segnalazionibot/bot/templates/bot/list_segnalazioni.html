@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% comment %}
+# -*- coding: utf-8 -*-
+# Subject to the terms of the GNU AFFERO GENERAL PUBLIC LICENSE, v. 3.0. If a copy of the AGPL was not
+# distributed with this file, You can obtain one at http://www.gnu.org/licenses/agpl.txt
+#
+# Author: Davide Galletti                davide   ( at )   c4k.it
+{% endcomment %}
+{% load staticfiles %}
+{% block content %}
+	{% if segnalazioni|length > 0 %}
+        <h3>{{ segnalazioni|length }} Segnalazioni registrate</h3>
+        <ul>
+        {% for segnalazione in segnalazioni %}
+            <li>
+                {{ segnalazione.photo_message.when_sent }} da {{ segnalazione.photo_message.utente.first_name }} {{ segnalazione.photo_message.utente.last_name }}
+                {% if segnalazione.photo_message.photo_thumb %}<br><img src="{% static segnalazione.photo_message.photo_thumb.url %}"/>{% endif %}
+                {% if segnalazione.photo_message.caption %}<br><i>{{ segnalazione.photo_message.caption }}</i>{% endif %}
+                {% if segnalazione.photo_message.caption %}<br><strong>{{ segnalazione.photo_message.caption }}</strong>{% endif %}
+                {% if segnalazione.location_message.longitude %}<br><strong>longitude: {{ segnalazione.location_message.longitude }} - latitude: {{ segnalazione.location_message.latitude }}</strong>{% endif %}
+            </li>
+        {% endfor %}
+        </ul>
+    {% else %}
+    	<h4>Nessuna segnalazione ricevuta</h4>
+	{% endif %}
+	
+{% endblock %}
+{% block message %}
+{{ message }}
+{% endblock %}

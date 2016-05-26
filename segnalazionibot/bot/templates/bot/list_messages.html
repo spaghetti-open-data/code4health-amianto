@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% comment %}
+# -*- coding: utf-8 -*-
+# Subject to the terms of the GNU AFFERO GENERAL PUBLIC LICENSE, v. 3.0. If a copy of the AGPL was not
+# distributed with this file, You can obtain one at http://www.gnu.org/licenses/agpl.txt
+#
+# Author: Davide Galletti                davide   ( at )   c4k.it
+{% endcomment %}
+{% load staticfiles %}
+{% block content %}
+	{% if bot_messages|length > 0 %}
+        <h3>{{ bot_messages|length }} Messaggi ricevuti</h3>
+        <ul>
+        {% for message in bot_messages %}
+            <li>
+                {{ message.when_sent }} da {{ message.utente.first_name }} {{ message.utente.last_name }}<br>
+                {{ message.content_type }} {{ message.processed }}  
+                {% if message.photo_thumb %}<br><img src="{% static message.photo_thumb.url %}"/>{% endif %}
+                {% if message.caption %}<br><i>{{ message.caption }}</i>{% endif %}
+                {% if message.text %}<br><strong>{{ message.text }}</strong>{% endif %}
+                {% if message.longitude %}<br><strong>longitude: {{ message.longitude }} - latitude: {{ message.latitude }}</strong>{% endif %}
+            </li>
+        {% endfor %}
+        </ul>
+    {% else %}
+    	<h4>Nessun messaggio ricevuto</h4>
+	{% endif %}
+	
+{% endblock %}
+{% block message %}
+{{ message }}
+{% endblock %}
