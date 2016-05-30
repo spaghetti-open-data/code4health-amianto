@@ -9,6 +9,7 @@ rm(list=ls())
 
 library(rgdal)
 library(stringr)
+library(stringdist)
 library(Rcode4healthAsbestos)
 
 
@@ -30,6 +31,7 @@ files <- list.files(dataDir,recursive=TRUE,full.names=TRUE) ####,pattern=".shp")
 admitted_extensions <- c("shp","geojson","csv") ## extansion files with data 
 
 files <- files[!str_detect(files,"RegioneToscana")] ## Regione Toscana actually not yet considered! 
+files <- files[!str_detect(files,"siti_contaminati_da_amianto_aggregati_per_regione-tutti_i")]
 
 files_o <- files
 files_o <- str_split(files,"[.]")
@@ -161,4 +163,65 @@ for (it in names(fields)) {
 
 writeLines(writeFields,con=writeFields_file)
 writeLines(writeFields_csv_v,con=writeFields_csv)
+
+
+
+#####
+
+lines_ff <- str_split(writeFields_csv_v[-1],";")
+names(lines_ff) <- sapply(X=lines_ff,FUN=function(x){x[1]})
+lines_ff <- lapply(X=lines_ff,FUN=function(x){x[-1]})
+
+nref <- "./MinAmbiente/PNA_W/Friuli_2013_"
+ref <- lines_ff[[nref]]
+
+mff <- lapply(X=lines_ff,FUN=function(x,ref=ref,find.min.dist=TRUE){
+			
+			x_ <- tolower(x)
+			ref_ <- tolower(ref)
+			
+		####	o <- array(NA,c(length(ref),length(x)))
+			o <- stringdistmatrix(ref_,x_,method="lcs") ## lcs
+			
+			rownames(o) <- ref
+			colnames(o) <- x
+			
+			if (find.min.dist==TRUE) {
+				
+				
+				rows <- apply(X=o,MARGIN=2,FUN=function(t){which(t==min(t,na.rm=TRUE))})
+				cols <- apply(X=o,MARGIN=1,FUN=function(t){which(t==min(t,na.rm=TRUE))})
+				
+				ot <- o*0
+				
+				for (c in 1:ncol(ot)) {
+					
+					ot[rows[[c]],c] <- ot[rows[[c]],c]+1
+					
+				}
+				
+				
+				for (r in 1:nrow(ot)) {
+					
+					ot[r,cols[[r]]] <- ot[r,cols[[r]]]+1
+					
+				}
+				
+				
+				
+				
+				o <- ot
+				message("TO GO ON ....")
+			}
+			
+			
+			
+			return(o)
+			
+		},ref=ref)
+
+
+
+
+
 ### END script
