@@ -2,9 +2,6 @@
 #CAMPI DEI DATA FRAMES
 
 
-#./INAIL/INAIL WGS 84
-ID  Comune  Classe_priorità
-
 #./MinAmbiente/PNA_W/Bolzano_2013
 Id_Regione  Id_Unità  Provincia  Comune  Categoria  Tipologia  Descrizione_materiali  A___Friabilità  B___Uso_pubblico  C___Accessibilità  D___Presenza_di_confinamento  I1___Quantità_di_materiale_stimato  Peso_stimato_friabile__kg_  Peso_stimato_compatto__kg_  I2___Presenza_di_un_programma_di_manutenzione_e_controllo  I3___Attività  I4___Presenza_di_cause_che_creano_o_favoriscono_la_dispersione_di_fibre  I5___Concentrazione_di_fibre_aerodisperse__ff_l_  I6___Area_di_estensione_del_sito__m2_  Effettiva_area_perimetrale__m2_  I7___Superficie_esposta_allaria  Effettiva_superficie_con_amianto_friabile__m2_  Effettiva_superficie_con_amianto_compatto__m2_  I8___Coinvolgimento_del_sito_in_lavori_di_urbanizzazione  I9___Stato_di_conservazione_delle_strutture  I10___Tempo_trascorso_dalla_dismissione__anni_  Data_dismissione__gg_mm_aaaa_  I11___Tipologia_di_amianto_presente  I12___Dati_epidemiologici  I13___Frequenza_di_utilizzo  I14___Distanza_dal_centro_urbano_m_  Distanza_dal_centro_urbano__km_  I15___Densità_di_popolazione  I16___Età_media_dei_soggetti_frequentatori__anni_  Tipo_di_bonifica  Tipo_di_intervento  Costi_totali_stimati_dell_intervento____  Fondi_locali_regionali_assegnati  Fondi_da_richiedere  Classe_di_priorità  Coefficiente_di_priorità  Punteggio_mappatura  Coordinate_X__WGS84_UTM_fuso_32_  Coordinate_Y__WGS84_UTM_fuso_32_
 
@@ -55,4 +52,7 @@ REV_INDIRI  REV_CITTÀ  ESITO  PROVINCIA  TIPO_BONIF  X_WGS84  Y_WGS84  DATA_UM
 
 #./RegioneSardegna/sitiInquinati
 idFeature  tipoSito  nome  note  tipAttoLeg  numAttoLeg  datAttoLeg  oggAttoLeg  notAttoLeg  tipoAggior  dataAggior  noteAggior
+
+#./Wired-aprile2015/INAIL WGS 84
+ID  Comune  Classe_priorità
 

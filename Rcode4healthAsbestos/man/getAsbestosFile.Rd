@@ -5,7 +5,7 @@
 \title{Function to import data (for Code4Health)}
 \usage{
 getAsbestosFile(dsn = NA, layer = NA, sep = c(";", ","), header = TRUE,
-  ...)
+  force.spatial = TRUE, ...)
 }
 \arguments{
 \item{dsn}{input file with data. See \code{\link{readOGR}}}

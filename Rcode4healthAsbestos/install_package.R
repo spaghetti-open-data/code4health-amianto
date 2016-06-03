@@ -1,4 +1,4 @@
-#! /usr/bin/Rscript
+#!/usr/bin/Rscript
 
 # file install_packege.R
 #

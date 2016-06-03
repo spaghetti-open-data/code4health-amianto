@@ -16,7 +16,7 @@ library(Rcode4healthAsbestos)
 ###
 ## IN alternativa a library(Rcode4healthAsbestos) si puo richamare direttamente il file
 ## alternatively to library(Rcode4healthAsbestos) you can load the R functions directly
-source('/home/ecor/Dropbox/R-packages/code4health-amianto/Rcode4healthAsbestos/R/getData.R') 
+#source('/home/ecor/Dropbox/R-packages/code4health-amianto/Rcode4healthAsbestos/R/getData.R') 
 #
 ###
 projectDir <- '/home/ecor/Dropbox/R-packages/code4health-amianto'  ## REPLACE WITH YOUR PROJECT DIR
@@ -207,10 +207,27 @@ mff <- lapply(X=lines_ff,FUN=function(x,ref=ref,find.min.dist=TRUE){
 					
 				}
 				
+				####  ####
+				rr <- array(NA,ncol(ot))
+				names(rr) <- colnames(ot)
+				
+				for (c in 1:ncol(ot)) {
+					
+					rr_ <- which(ot[,c]==2)
+					if (length(rr_)>0) {
+						
+						rr[c] <- rownames(ot)[rr_[1]]
+					}
+					####ot[r,cols[[r]]] <- ot[r,cols[[r]]]+1
+					
+				}
 				
 				
 				
-				o <- ot
+				
+			##	o <- ot
+				o <- rr
+				
 				message("TO GO ON ....")
 			}
 			
