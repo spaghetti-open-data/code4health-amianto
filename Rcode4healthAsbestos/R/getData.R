@@ -110,6 +110,7 @@ getAsbestosFile <- function(dsn=NA,layer=NA,sep=c(";",","),header=TRUE,force.spa
 			
 				
 				attr(out,"coords") <- paste(coords,collapse=" AND ")
+				
 				attr(out,"proj_CRS") <- proj4string(out)
 		}
 		
